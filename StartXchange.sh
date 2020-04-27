@@ -43,10 +43,10 @@ read -p "--•>" pil
 
 if [ $pil = '1' ]
 then
-sh L.sh
+sh P.sh
 fi
 
 if [ $pil = '2' ]
 then
-sh P.sh
+sh D.sh
 fi
